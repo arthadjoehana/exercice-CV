@@ -1,8 +1,24 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Poppins-"Medium";
+    
 }
+
+body {
+    font-family: "Poppins";
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("../fonts/poppins.ttf");
+}
+
+@font-face {
+	font-family: "Poppins Bold";
+	src: url("../fonts/Poppins-Medium.ttf");
+}
+
+
 
 .blue {
     background-color: #0475ba;
@@ -35,24 +51,23 @@ header {
     height: 200px;
 }
 
+
 .main {
     padding: 40px;
-    
-}
-
-main h2 {
-    padding-left: 300px;
+    display: flex;
+    justify-content: center;
 }
 
 .text {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 300px;
+    width: 800px;
 }
 
-span {
-    padding-right: 300px;
+.date {
+    display: flex;
+    justify-content: space-between;
+
 }
+
 .white h2 {
     color: #0475ba;
 }
